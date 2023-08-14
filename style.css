@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-nav li a {
+    color: aquamarine;
+}
+
+.sunflower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    height: 300px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+@media (max-width: 412px) {
+    .carousel-item img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 955px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+.footer img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-image: linear-gradient(to right, #c1e776, #98c95a, #6fac3f, #459025, #087407);
+}
+
+
